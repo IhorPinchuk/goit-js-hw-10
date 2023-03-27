@@ -12,6 +12,6 @@ function fetchCountries(name) {
       return response.json();
     })
     .catch(error => {
-      console.error(error);
+      console.warn(error);
     });
 }
